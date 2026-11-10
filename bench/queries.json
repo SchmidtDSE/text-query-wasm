@@ -1,0 +1,9 @@
+[
+  {"id": "folder_counts", "label": "Passages per folder", "sql": "SELECT folder, count(*) AS n FROM {passages} GROUP BY ALL ORDER BY ALL"},
+  {"id": "keyword_count", "label": "Count passages with a keyword", "sql": "SELECT count(*) AS n FROM {passages} WHERE text ILIKE '%seamount%'"},
+  {"id": "decide_rows", "label": "Rows for one decide call", "sql": "SELECT passage_id, title, page, text FROM {passages} WHERE folder = '8.2.4.Corals, 8.2.5.Sponges' AND text ILIKE '%coral%' LIMIT 401"},
+  {"id": "regex_rows", "label": "Regex match, 50 rows", "sql": "SELECT passage_id, title, left(text, 500) AS text FROM {passages} WHERE regexp_matches(text, '(?i)hydrothermal vent|cold-water coral') ORDER BY passage_id LIMIT 51"},
+  {"id": "coded_summary", "label": "Codebook summary from coded", "sql": "SELECT site, count(*) FILTER (crit_a > 0.7) AS a, count(*) FILTER (crit_m > 0.7) AS m, avg(content) AS content FROM {coded} WHERE content > 0.5 GROUP BY ALL ORDER BY ALL"},
+  {"id": "one_paper", "label": "All passages of one paper", "sql": "SELECT passage_id, page, text FROM {passages} WHERE doc_id = 42 ORDER BY passage_id"},
+  {"id": "point", "label": "One passage by id", "sql": "SELECT title, page, text FROM {passages} WHERE passage_id = 7000"}
+]

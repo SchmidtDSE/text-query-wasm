@@ -1,0 +1,1289 @@
+{
+ "sql_browser": {
+  "x1/remote-d0": {
+   "chrome": "HeadlessChrome/156.0.8078.4",
+   "queries": {
+    "folder_counts": {
+     "cold": {
+      "s": 0.06730000019073486,
+      "rows": 8,
+      "requests": 2,
+      "mb": 0.02,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.008800000190734862,
+      "rows": 8,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    },
+    "keyword_count": {
+     "cold": {
+      "s": 0.1865,
+      "rows": 1,
+      "requests": 2,
+      "mb": 3.64,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.10910000038146973,
+      "rows": 1,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    },
+    "decide_rows": {
+     "cold": {
+      "s": 0.04859999990463257,
+      "rows": 154,
+      "requests": 2,
+      "mb": 0.04,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.04030000019073486,
+      "rows": 154,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    },
+    "regex_rows": {
+     "cold": {
+      "s": 0.07439999961853028,
+      "rows": 51,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.06289999961853027,
+      "rows": 51,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    },
+    "coded_summary": {
+     "cold": {
+      "s": 0.034200000286102296,
+      "rows": 6,
+      "requests": 6,
+      "mb": 0.07,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.008199999809265137,
+      "rows": 6,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    },
+    "one_paper": {
+     "cold": {
+      "s": 0.03,
+      "rows": 78,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.028300000190734864,
+      "rows": 78,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    },
+    "point": {
+     "cold": {
+      "s": 0.02659999990463257,
+      "rows": 1,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.025100000381469728,
+      "rows": 1,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    }
+   },
+   "startup_s": 3.631,
+   "peak_mb": 517
+  },
+  "x1/remote-d40": {
+   "chrome": "HeadlessChrome/156.0.8078.4",
+   "queries": {
+    "folder_counts": {
+     "cold": {
+      "s": 0.14110000038146972,
+      "rows": 8,
+      "requests": 2,
+      "mb": 0.02,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.0485,
+      "rows": 8,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    },
+    "keyword_count": {
+     "cold": {
+      "s": 0.2809000000953674,
+      "rows": 1,
+      "requests": 2,
+      "mb": 3.64,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.14830000019073486,
+      "rows": 1,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    },
+    "decide_rows": {
+     "cold": {
+      "s": 0.12639999961853027,
+      "rows": 154,
+      "requests": 2,
+      "mb": 0.04,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.08009999990463257,
+      "rows": 154,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    },
+    "regex_rows": {
+     "cold": {
+      "s": 0.115,
+      "rows": 51,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.10280000019073486,
+      "rows": 51,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    },
+    "coded_summary": {
+     "cold": {
+      "s": 0.2746999998092651,
+      "rows": 6,
+      "requests": 6,
+      "mb": 0.07,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.0515,
+      "rows": 6,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    },
+    "one_paper": {
+     "cold": {
+      "s": 0.09259999990463257,
+      "rows": 78,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.0802999997138977,
+      "rows": 78,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    },
+    "point": {
+     "cold": {
+      "s": 0.0835,
+      "rows": 1,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.0827999997138977,
+      "rows": 1,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    }
+   },
+   "startup_s": 3.591,
+   "peak_mb": 514
+  },
+  "x1/memory": {
+   "chrome": "HeadlessChrome/156.0.8078.4",
+   "queries": {
+    "folder_counts": {
+     "cold": {
+      "s": 0.022400000095367432,
+      "rows": 8,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     },
+     "warm": {
+      "s": 0.0030999999046325685,
+      "rows": 8,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     }
+    },
+    "keyword_count": {
+     "cold": {
+      "s": 0.09490000009536743,
+      "rows": 1,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     },
+     "warm": {
+      "s": 0.08440000009536743,
+      "rows": 1,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     }
+    },
+    "decide_rows": {
+     "cold": {
+      "s": 0.018200000286102296,
+      "rows": 154,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     },
+     "warm": {
+      "s": 0.01590000009536743,
+      "rows": 154,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     }
+    },
+    "regex_rows": {
+     "cold": {
+      "s": 0.053,
+      "rows": 51,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     },
+     "warm": {
+      "s": 0.039,
+      "rows": 51,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     }
+    },
+    "coded_summary": {
+     "cold": {
+      "s": 0.006,
+      "rows": 6,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     },
+     "warm": {
+      "s": 0.0031000003814697264,
+      "rows": 6,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     }
+    },
+    "one_paper": {
+     "cold": {
+      "s": 0.007700000286102295,
+      "rows": 78,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     },
+     "warm": {
+      "s": 0.003299999713897705,
+      "rows": 78,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     }
+    },
+    "point": {
+     "cold": {
+      "s": 0.0016000003814697265,
+      "rows": 1,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     },
+     "warm": {
+      "s": 0.001700000286102295,
+      "rows": 1,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     }
+    }
+   },
+   "startup_s": 4.048,
+   "load": {
+    "s": 0.4917999997138977,
+    "requests": 6,
+    "mb": 7.8,
+    "inFlight": 1
+   },
+   "peak_mb": 534
+  },
+  "x10/remote-d0": {
+   "chrome": "HeadlessChrome/156.0.8078.4",
+   "queries": {
+    "folder_counts": {
+     "cold": {
+      "s": 0.09430000019073487,
+      "rows": 8,
+      "requests": 9,
+      "mb": 0.07,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.008800000190734862,
+      "rows": 8,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    },
+    "keyword_count": {
+     "cold": {
+      "s": 1.4648000001907349,
+      "rows": 1,
+      "requests": 9,
+      "mb": 36.54,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 1.0503000001907348,
+      "rows": 1,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    },
+    "decide_rows": {
+     "cold": {
+      "s": 0.1935,
+      "rows": 401,
+      "requests": 4,
+      "mb": 0.11,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.12510000038146973,
+      "rows": 401,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    },
+    "regex_rows": {
+     "cold": {
+      "s": 0.09959999990463257,
+      "rows": 51,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.08569999980926514,
+      "rows": 51,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    },
+    "coded_summary": {
+     "cold": {
+      "s": 0.12879999971389772,
+      "rows": 6,
+      "requests": 33,
+      "mb": 0.6,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.026700000286102296,
+      "rows": 6,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    },
+    "one_paper": {
+     "cold": {
+      "s": 0.045599999904632565,
+      "rows": 78,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.03359999990463257,
+      "rows": 78,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    },
+    "point": {
+     "cold": {
+      "s": 0.03590000009536743,
+      "rows": 1,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.032199999809265134,
+      "rows": 1,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    }
+   },
+   "startup_s": 3.385,
+   "peak_mb": 631
+  },
+  "x10/remote-d40": {
+   "chrome": "HeadlessChrome/156.0.8078.4",
+   "queries": {
+    "folder_counts": {
+     "cold": {
+      "s": 0.454,
+      "rows": 8,
+      "requests": 9,
+      "mb": 0.07,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.05219999980926514,
+      "rows": 8,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    },
+    "keyword_count": {
+     "cold": {
+      "s": 1.8130999999046327,
+      "rows": 1,
+      "requests": 9,
+      "mb": 36.54,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 1.0435,
+      "rows": 1,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    },
+    "decide_rows": {
+     "cold": {
+      "s": 0.30939999961853026,
+      "rows": 401,
+      "requests": 4,
+      "mb": 0.11,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.18359999990463258,
+      "rows": 401,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    },
+    "regex_rows": {
+     "cold": {
+      "s": 0.1387999997138977,
+      "rows": 51,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.12569999980926513,
+      "rows": 51,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    },
+    "coded_summary": {
+     "cold": {
+      "s": 1.4396999998092652,
+      "rows": 6,
+      "requests": 33,
+      "mb": 0.6,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.06530000019073487,
+      "rows": 6,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    },
+    "one_paper": {
+     "cold": {
+      "s": 0.09380000019073487,
+      "rows": 78,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.08380000019073486,
+      "rows": 78,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    },
+    "point": {
+     "cold": {
+      "s": 0.08380000019073486,
+      "rows": 1,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.08190000009536744,
+      "rows": 1,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    }
+   },
+   "startup_s": 3.827,
+   "peak_mb": 590
+  },
+  "x10/memory": {
+   "chrome": "HeadlessChrome/156.0.8078.4",
+   "queries": {
+    "folder_counts": {
+     "cold": {
+      "s": 0.14059999990463257,
+      "rows": 8,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     },
+     "warm": {
+      "s": 0.007099999904632569,
+      "rows": 8,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     }
+    },
+    "keyword_count": {
+     "cold": {
+      "s": 0.8484000000953674,
+      "rows": 1,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     },
+     "warm": {
+      "s": 0.847,
+      "rows": 1,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     }
+    },
+    "decide_rows": {
+     "cold": {
+      "s": 0.0447000002861023,
+      "rows": 401,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     },
+     "warm": {
+      "s": 0.04109999990463257,
+      "rows": 401,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     }
+    },
+    "regex_rows": {
+     "cold": {
+      "s": 0.3235,
+      "rows": 51,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     },
+     "warm": {
+      "s": 0.30940000009536744,
+      "rows": 51,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     }
+    },
+    "coded_summary": {
+     "cold": {
+      "s": 0.012400000095367432,
+      "rows": 6,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     },
+     "warm": {
+      "s": 0.008899999618530273,
+      "rows": 6,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     }
+    },
+    "one_paper": {
+     "cold": {
+      "s": 0.0038000001907348632,
+      "rows": 78,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     },
+     "warm": {
+      "s": 0.002799999713897705,
+      "rows": 78,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     }
+    },
+    "point": {
+     "cold": {
+      "s": 0.0018000001907348632,
+      "rows": 1,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     },
+     "warm": {
+      "s": 0.0016999998092651367,
+      "rows": 1,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     }
+    }
+   },
+   "startup_s": 3.896,
+   "load": {
+    "s": 2.5017000002861023,
+    "requests": 18,
+    "mb": 77.47,
+    "inFlight": 1
+   },
+   "peak_mb": 1060
+  },
+  "x100/remote-d0": {
+   "chrome": "HeadlessChrome/156.0.8078.4",
+   "queries": {
+    "folder_counts": {
+     "cold": {
+      "s": 0.3181999998092651,
+      "rows": 8,
+      "requests": 72,
+      "mb": 0.29,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.041700000286102296,
+      "rows": 8,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    },
+    "keyword_count": {
+     "cold": {
+      "s": 14.814099999904633,
+      "rows": 1,
+      "requests": 72,
+      "mb": 365.21,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 10.400799999713898,
+      "rows": 1,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    },
+    "decide_rows": {
+     "cold": {
+      "s": 0.294,
+      "rows": 401,
+      "requests": 4,
+      "mb": 0.11,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.12830000019073487,
+      "rows": 401,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    },
+    "regex_rows": {
+     "cold": {
+      "s": 0.10629999971389771,
+      "rows": 51,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.09369999980926513,
+      "rows": 51,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    },
+    "coded_summary": {
+     "cold": {
+      "s": 1.0509000000953674,
+      "rows": 6,
+      "requests": 287,
+      "mb": 5.76,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.103,
+      "rows": 6,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    },
+    "one_paper": {
+     "cold": {
+      "s": 0.041,
+      "rows": 78,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.03880000019073487,
+      "rows": 78,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    },
+    "point": {
+     "cold": {
+      "s": 0.0395,
+      "rows": 1,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.038,
+      "rows": 1,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    }
+   },
+   "startup_s": 3.724,
+   "peak_mb": 1101
+  },
+  "x100/remote-d40": {
+   "chrome": "HeadlessChrome/156.0.8078.4",
+   "queries": {
+    "folder_counts": {
+     "cold": {
+      "s": 3.1540999999046324,
+      "rows": 8,
+      "requests": 72,
+      "mb": 0.29,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.08190000009536744,
+      "rows": 8,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    },
+    "keyword_count": {
+     "cold": {
+      "s": 17.479799999713897,
+      "rows": 1,
+      "requests": 72,
+      "mb": 365.21,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 10.486799999713897,
+      "rows": 1,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    },
+    "decide_rows": {
+     "cold": {
+      "s": 0.31569999980926516,
+      "rows": 401,
+      "requests": 4,
+      "mb": 0.11,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.17709999990463257,
+      "rows": 401,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    },
+    "regex_rows": {
+     "cold": {
+      "s": 0.14609999990463257,
+      "rows": 51,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.13190000009536743,
+      "rows": 51,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    },
+    "coded_summary": {
+     "cold": {
+      "s": 12.340299999713897,
+      "rows": 6,
+      "requests": 287,
+      "mb": 5.76,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.152,
+      "rows": 6,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    },
+    "one_paper": {
+     "cold": {
+      "s": 0.07990000009536743,
+      "rows": 78,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.0787000002861023,
+      "rows": 78,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    },
+    "point": {
+     "cold": {
+      "s": 0.0795,
+      "rows": 1,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     },
+     "warm": {
+      "s": 0.07789999961853028,
+      "rows": 1,
+      "requests": 1,
+      "mb": 0,
+      "inFlight": 1
+     }
+    }
+   },
+   "startup_s": 3.802,
+   "peak_mb": 1089
+  },
+  "x100/memory": {
+   "chrome": "HeadlessChrome/156.0.8078.4",
+   "queries": {
+    "folder_counts": {
+     "cold": {
+      "s": 0.06430000019073487,
+      "rows": 8,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     },
+     "warm": {
+      "s": 0.04589999961853027,
+      "rows": 8,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     }
+    },
+    "keyword_count": {
+     "cold": {
+      "s": 8.533400000095368,
+      "rows": 1,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     },
+     "warm": {
+      "s": 8.312,
+      "rows": 1,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     }
+    },
+    "decide_rows": {
+     "cold": {
+      "s": 0.04419999980926514,
+      "rows": 401,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     },
+     "warm": {
+      "s": 0.04009999990463257,
+      "rows": 401,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     }
+    },
+    "regex_rows": {
+     "cold": {
+      "s": 0.3243999996185303,
+      "rows": 51,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     },
+     "warm": {
+      "s": 0.31139999961853027,
+      "rows": 51,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     }
+    },
+    "coded_summary": {
+     "cold": {
+      "s": 0.0655,
+      "rows": 6,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     },
+     "warm": {
+      "s": 0.0615,
+      "rows": 6,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     }
+    },
+    "one_paper": {
+     "cold": {
+      "s": 0.0039000000953674317,
+      "rows": 78,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     },
+     "warm": {
+      "s": 0.002199999809265137,
+      "rows": 78,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     }
+    },
+    "point": {
+     "cold": {
+      "s": 0.001799999713897705,
+      "rows": 1,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     },
+     "warm": {
+      "s": 0.0022000002861022948,
+      "rows": 1,
+      "requests": 0,
+      "mb": 0,
+      "inFlight": 0
+     }
+    }
+   },
+   "startup_s": 3.454,
+   "load": {
+    "s": 22.765,
+    "requests": 147,
+    "mb": 769.53,
+    "inFlight": 1
+   },
+   "peak_mb": 4340
+  }
+ },
+ "sql_native": {
+  "1": {
+   "folder_counts": {
+    "s": 0.0241,
+    "rows": 8
+   },
+   "keyword_count": {
+    "s": 0.0976,
+    "rows": 1
+   },
+   "decide_rows": {
+    "s": 0.054,
+    "rows": 154
+   },
+   "regex_rows": {
+    "s": 0.0779,
+    "rows": 51
+   },
+   "coded_summary": {
+    "s": 0.0252,
+    "rows": 6
+   },
+   "one_paper": {
+    "s": 0.0466,
+    "rows": 78
+   },
+   "point": {
+    "s": 0.0457,
+    "rows": 1
+   }
+  },
+  "10": {
+   "folder_counts": {
+    "s": 0.0259,
+    "rows": 8
+   },
+   "keyword_count": {
+    "s": 0.1468,
+    "rows": 1
+   },
+   "decide_rows": {
+    "s": 0.0766,
+    "rows": 401
+   },
+   "regex_rows": {
+    "s": 0.1057,
+    "rows": 51
+   },
+   "coded_summary": {
+    "s": 0.0277,
+    "rows": 6
+   },
+   "one_paper": {
+    "s": 0.054,
+    "rows": 78
+   },
+   "point": {
+    "s": 0.0529,
+    "rows": 1
+   }
+  },
+  "100": {
+   "folder_counts": {
+    "s": 0.0349,
+    "rows": 8
+   },
+   "keyword_count": {
+    "s": 0.3005,
+    "rows": 1
+   },
+   "decide_rows": {
+    "s": 0.1654,
+    "rows": 401
+   },
+   "regex_rows": {
+    "s": 0.1957,
+    "rows": 51
+   },
+   "coded_summary": {
+    "s": 0.0428,
+    "rows": 6
+   },
+   "one_paper": {
+    "s": 0.0616,
+    "rows": 78
+   },
+   "point": {
+    "s": 0.0593,
+    "rows": 1
+   }
+  }
+ },
+ "decide": {
+  "browser/lat1000/c6": {
+   "startup_s": 4.109,
+   "first_s": 72.74530000019074,
+   "cached_s": 0.03109999990463257,
+   "server": {
+    "most": 6,
+    "total": 400
+   }
+  },
+  "browser/lat1000/c12": {
+   "startup_s": 4.053,
+   "first_s": 35.402,
+   "cached_s": 0.02890000009536743,
+   "server": {
+    "most": 12,
+    "total": 400
+   }
+  },
+  "browser/lat1000/c24": {
+   "startup_s": 4.528,
+   "first_s": 18.289799999713896,
+   "cached_s": 0.0265,
+   "server": {
+    "most": 24,
+    "total": 400
+   }
+  },
+  "browser/lat3000/c6": {
+   "startup_s": 4.245,
+   "first_s": 215.56490000009538,
+   "cached_s": 0.03430000019073486,
+   "server": {
+    "most": 6,
+    "total": 400
+   }
+  },
+  "browser/lat3000/c12": {
+   "startup_s": 3.91,
+   "first_s": 107.0277000002861,
+   "cached_s": 0.03009999990463257,
+   "server": {
+    "most": 12,
+    "total": 400
+   }
+  },
+  "browser/lat3000/c24": {
+   "startup_s": 4.09,
+   "first_s": 54.39740000009537,
+   "cached_s": 0.03130000019073486,
+   "server": {
+    "most": 24,
+    "total": 400
+   }
+  },
+  "server/lat1000/c6": {
+   "first_s": 72.41,
+   "cached_s": 0.089,
+   "server": {
+    "most": 6,
+    "total": 400
+   }
+  },
+  "server/lat1000/c12": {
+   "first_s": 36.08,
+   "cached_s": 0.074,
+   "server": {
+    "most": 12,
+    "total": 400
+   }
+  },
+  "server/lat1000/c24": {
+   "first_s": 18.28,
+   "cached_s": 0.082,
+   "server": {
+    "most": 24,
+    "total": 400
+   }
+  },
+  "server/lat3000/c6": {
+   "first_s": 213.13,
+   "cached_s": 0.068,
+   "server": {
+    "most": 6,
+    "total": 400
+   }
+  },
+  "server/lat3000/c12": {
+   "first_s": 109.51,
+   "cached_s": 0.088,
+   "server": {
+    "most": 12,
+    "total": 400
+   }
+  },
+  "server/lat3000/c24": {
+   "first_s": 54.82,
+   "cached_s": 0.09,
+   "server": {
+    "most": 24,
+    "total": 400
+   }
+  }
+ }
+}
