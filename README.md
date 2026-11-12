@@ -20,7 +20,7 @@ Web Worker (src/worker.js)
 - `src/decide.js` is a port of the prototype server's logic: the same question validation, flattening, summary, sorting, row limits and output. `test/decide.test.mjs` checks it (`node --test test/*.test.mjs`).
 - Each configured table is loaded into the engine's memory when the worker starts, so later queries never touch the network.
 - The decision token comes from the page with `sendToken()`, a message the worker handles before MCP, so the model never sees it and it is not in the worker's URL.
-- The engine is imported from geo-query-wasm at a pinned commit, so the lockdown is shared, not copied.
+- The engine is imported from geo-query-wasm at a pinned release, so the lockdown is shared, not copied.
 
 ## Parity with text-query
 
