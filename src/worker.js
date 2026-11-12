@@ -14,7 +14,7 @@
  *   instructions  corpus description, sent in the handshake and with each tool
  *   maxRows       rows per decide call (400)
  *   concurrency   decision requests in flight (12)
- *   engineUrl     geo-query-wasm's engine.js (default jsDelivr at a pinned commit)
+ *   engineUrl     geo-query-wasm's engine.js (default jsDelivr at a pinned release)
  *   engine        options for createEngine (allowedDirectories, secrets, …)
  *
  * The decision token comes from the page with sendToken() (token.js), never the URL.
@@ -24,7 +24,7 @@ import { createServer } from './server.js';
 import { decisionClient } from './decide.js';
 import { TOKEN_MESSAGE } from './token.js';
 
-export const ENGINE_URL = 'https://cdn.jsdelivr.net/gh/SchmidtDSE/geo-query-wasm@dad59aa/src/engine.js';
+export const ENGINE_URL = 'https://cdn.jsdelivr.net/gh/SchmidtDSE/geo-query-wasm@v0.6.0/src/engine.js';
 
 let token = '';
 self.addEventListener('message', (e) => {
