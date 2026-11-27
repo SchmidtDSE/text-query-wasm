@@ -24,7 +24,7 @@ import { createServer } from './server.js';
 import { decisionClient } from './decide.js';
 import { TOKEN_MESSAGE } from './token.js';
 
-export const ENGINE_URL = 'https://cdn.jsdelivr.net/gh/SchmidtDSE/geo-query-wasm@v0.6.0/src/engine.js';
+export const ENGINE_URL = 'https://cdn.jsdelivr.net/gh/SchmidtDSE/geo-query-wasm@v0.7.0/src/engine.js';
 
 let token = '';
 self.addEventListener('message', (e) => {
